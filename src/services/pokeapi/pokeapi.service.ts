@@ -1,8 +1,11 @@
 import { Ability } from "@/types/ability.types";
 import { Pokemon, PokemonList } from "@/types/pokemon.types";
 import { Specie } from "@/types/specie.types";
+import { FetchPaginatedProps } from "./pokeapi.service.types";
 
-export const fetchPokemon = async (props: any): Promise<PokemonList> => {
+export const fetchPokemon = async (
+  props: FetchPaginatedProps
+): Promise<PokemonList> => {
   const { pageParam } = props;
   const { url } = pageParam;
   const response = await fetch(url);
