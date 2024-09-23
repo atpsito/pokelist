@@ -7,7 +7,7 @@ export default function SolutionLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <div className="flex flex-col h-screen">
+    <div className="flex flex-col h-screen items-center">
       <Header />
       {children}
       <Footer />
