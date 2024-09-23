@@ -1,5 +1,5 @@
 
-# Pokédex App
+# Pokelist App
 
 ## Description
 

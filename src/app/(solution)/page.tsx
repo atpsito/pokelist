@@ -1,5 +1,11 @@
 import Home from "@/components/Home/Home";
 import React from "react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Pokelist | Portfolio",
+  description: "Tailwind CSS, Next.js, Tanstack Query, Framer Motion",
+};
 
 const SolutionPage = () => {
   return (
