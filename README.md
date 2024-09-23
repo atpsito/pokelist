@@ -1,15 +1,16 @@
-
 # Pokelist App
 
 ## Description
 
 This Pokédex application is a web app that allows users to explore information about various Pokémon. It utilizes the PokéAPI to fetch and display data about different Pokémon species, their abilities, and characteristics.
 
+Here you can see the live demo: [Pokelist](https://pokelist.atpsito.com)
+
+My portfolio: [atpsito.com](https://atpsito.com)
+
 ## Features
 
 - Browse through a list of Pokémon
-- View detailed information about each Pokémon
-- Search for specific Pokémon
 - Responsive design for desktop and mobile devices
 - Infinite scroll using intersection observer and Tanstack Query
 - Animations using Framer Motion
@@ -22,6 +23,7 @@ This Pokédex application is a web app that allows users to explore information 
 - Tailwind CSS
 - Tanstack Query for data fetching and caching
 - Framer Motion for animations
+- Vercel for deployment
 
 ## Getting Started
 
@@ -46,5 +48,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 This project is open-source and available under the [MIT License](LICENSE).
-
-

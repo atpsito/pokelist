@@ -5,7 +5,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="Footer flex items-center justify-between p-6 w-full">
+    <div className="Footer flex items-center justify-between p-6 w-full fixed bottom-0 bg-black">
       <div className="flex gap-4">
         <Link
           href="https://www.linkedin.com/in/atpsito/"

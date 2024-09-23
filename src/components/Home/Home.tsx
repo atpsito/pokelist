@@ -10,9 +10,10 @@ const Home = () => {
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
+        console.log(entry.isIntersecting);
         if (entry.isIntersecting) fetchNextPage();
       },
-      { rootMargin: "-200px" }
+      { rootMargin: "300px" }
     );
     if (!ref.current) return;
     observer.observe(ref.current);
@@ -23,7 +24,7 @@ const Home = () => {
   return (
     <div className="Home flex flex-col flex-1">
       <PokemonList pokemonList={data} />
-      <div className="observer" ref={ref} />
+      <div ref={ref} className="observer bg-red-500 w-full" />
     </div>
   );
 };
